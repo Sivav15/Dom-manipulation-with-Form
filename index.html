@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation With Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title"> Dom Manipulation With Forms</h1>
+    <p id="description"> From Filling</p>
+    <form id="form" onsubmit="formsubmithandler(event)">
+        <div class="form-group">
+            <label for=""> FirstName</label><br>
+            <input type="text" id="first-name" placeholder="First name" required>
+        </div>
+        
+        <div class="form-group ">
+            <label for=""> LastName</label><br>
+            <input type="text" id="last-name" placeholder="Last name" required>
+        </div>
+
+        <div class="form-group">
+            <label for=""> Gender</label><br>
+            <div id="gender_div">
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </div>
+        </div>
+
+        <div>
+            <label for=""> Choice Of Food</label> <span id="span1"><i> (Must choose at least 2 out 5 food) </i></span>
+            <span id="span2">*</span>
+            <div id="select">
+                <input type="checkbox" value="Chicken 65" class="checkbox" name="c65">Chicken 65 <br>
+                <input type="checkbox" value="Tandoori Chicken" class="checkbox" name="tc">Tandoori Chicken <br>
+                <input type="checkbox" value="Chicken Gravey" class="checkbox" name="cg">Chicken Gravey <br>
+                <input type="checkbox" value="Mutton Gravy" class="checkbox" name="mg">Mutton Gravy <br>
+                <input type="checkbox" value="Mutton Fry" class="checkbox" name="mf">Mutton Fry <br>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for=""> PinCode</label><br>
+            <input type="text" id="pincode" placeholder="Enter your pin code" required>
+        </div>
+
+        <div class="form-group">
+            <label for=""> Address</label><br>
+            <textarea id="address" cols="30" rows="10" placeholder="Enter your address" required></textarea>
+        </div>
+
+        <div>
+            <label for=""> State</label><br>
+            <input type="text" id="state">
+        </div>
+        <div>
+            <label for=""> Country</label><br>
+            <input type="text" id="country">
+        </div>
+
+        <div id="butt">
+            <button id="submit" class="btn btn-primary">submit </button>
+            <button type="reset" id="reset">Reset</button>
+        </div>
+    </form>
+    <div id="table_div">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Gender</th>
+                    <th>Choice Of Food</th>
+                    <th>PinCode</th>
+                    <th>Address</th>
+                    <th>State</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr id="row">
+                    <td id="fname"></td>
+                    <td id="lname"></td>
+                    <td id="gen"></td>
+                    <td id="check">
+                        <ul id="sivanathan">
+
+                        </ul>
+                    </td>
+                    <td id="pin"></td>
+                    <td id="add"></td>
+                    <td id="stat"></td>
+                    <td id="count"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

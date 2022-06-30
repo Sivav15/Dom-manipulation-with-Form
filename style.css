@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#title{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+#description{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+#form{
+    width: 60%;
+    background-color:#F3F2F3;
+    padding: 40px 40px 0 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#gender_div{
+    margin: 15px 0;
+}
+#butt{
+    display: flex;
+    justify-content: center;
+}
+#submit,#address,#pincode,#last-name,#first-name,#country,#state,#reset{
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%; 
+}
+#address{
+    width: 90%;
+}
+#select{
+    margin: 15px 0;
+}
+#span1{
+    font-size:13px;
+    margin-left: 10px;
+    color: rgb(59, 55, 55);
+}
+.checkbox{
+    padding: 2px;
+    margin: 8px 0 8px 50px;
+}
+#span2{
+    color:red;
+    font-size: 20px;
+    font-weight: 900; 
+}
+#submit{ 
+    margin: 15px 10px 5px 10px;
+ text-align: center;
+ padding: 15px;
+ width: 25%;
+ font-size: large;
+ background-color: green;
+ color: white;
+}
+#reset{
+    margin: 15px 10px 5px 10px;
+ text-align: center;
+ padding: 15px;
+ width: 25%;
+ font-size: large;
+ background-color: green;
+ color: white;
+}
+#table_div{
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+ 
+}
+table{
+    /* cellspacing:10; */
+    background-color:#F3F2F3;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+
